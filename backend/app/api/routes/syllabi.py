@@ -17,7 +17,12 @@ def create_syllabus_summary(
         model_id=settings.bedrock_model_id,
         region=settings.aws_region,
     )
-    return SyllabusSummaryResponse(
-        course_name=request.course_name,
-        summary=summary,
-    )
+    if request.course_name is not None:
+        summary = summary.model_copy(
+            update={
+                "course": summary.course.model_copy(
+                    update={"name": request.course_name}
+                )
+            }
+        )
+    return summary
