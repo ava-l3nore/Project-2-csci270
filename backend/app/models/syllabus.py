@@ -55,4 +55,12 @@ class SyllabusSummaryResponse(BaseModel):
     important_dates: list[ImportantDate] = Field(default_factory=list)
     policies: list[CoursePolicy] = Field(default_factory=list)
     uncertainties: list[Uncertainty] = Field(default_factory=list)
-    
+
+class SyllabusFileResult(BaseModel):
+    index: int
+    filename: str
+    summary: SyllabusSummaryResponse
+
+
+class BatchSyllabusSummaryResponse(BaseModel):
+    results: list[SyllabusFileResult] = Field(min_length=1)

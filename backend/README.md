@@ -25,6 +25,7 @@ uvicorn app.main:app --reload
 - Health check: `GET http://localhost:8000/health`
 - Interactive API docs: `http://localhost:8000/docs`
 - Syllabus summary: `POST http://localhost:8000/api/v1/syllabi/summarize`
+- Batch file summaries: `POST http://localhost:8000/api/v1/syllabi/summarize-batch`
 
 Example request:
 
@@ -35,7 +36,9 @@ Example request:
 }
 ```
 
-The summary endpoint sends the supplied text directly to Nova Lite using the Bedrock Runtime Converse API. The model is instructed to return structured JSON with syllabus details and important dates; the API currently returns that JSON as text in its `summary` field. Syllabus text is not stored, and dates are not yet converted into calendar events.
+The text summary endpoint sends the supplied text directly to Nova Lite using the Bedrock Runtime Converse API and returns a validated structured response.
+
+The batch endpoint accepts up to eight `.txt`, `.pdf`, or `.docx` files per request, with a 15 MiB limit per file. It extracts text and summarizes each file separately, returning each result with its upload index and filename. Scanned PDFs without extractable text are not supported yet; OCR is planned. Uploaded files and extracted text are not stored.
 
 ## Planned backend areas
 
@@ -45,4 +48,4 @@ The summary endpoint sends the supplied text directly to Nova Lite using the Bed
 - `app/services/` — integrations and business logic, including Bedrock.
 - `app/repositories/` — future persistence boundary for syllabi, courses, and events.
 
-No database, catalog data source, authentication, or file-upload flow is selected yet; choose those before implementing persistent calendar and degree-progress features.
+No database, catalog data source, authentication, or OCR support is implemented yet; choose those before implementing persistent calendar and degree-progress features.
