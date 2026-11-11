@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import json
 import os
 from playwright.sync_api import sync_playwright
 
@@ -21,7 +22,9 @@ def main():
 
         soup = parse_majors(major, url)
 
-        walker(soup)
+        os.makedirs("data", exist_ok=True)
+        with open(f"data/{major}.json", "w", encoding="utf-8") as f:
+            json.dump(walker(soup), f, indent=2)
 
 def walker(soup):
     elements = soup.select("div.acalog-core")
