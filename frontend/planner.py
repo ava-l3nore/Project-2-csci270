@@ -38,3 +38,15 @@ def group_by_week(dated):
             weeks[monday] = []
         weeks[monday].append(event)
     return weeks
+
+def to_calendar_events(dated):
+    events = []
+    for index, event in enumerate(dated):
+        events.append({
+            "id": str(index),
+            "title": f"{event['course']} · {event['title']}",
+            "start": event["date"],
+            "allDay": True,
+            "extendedProps": event.copy(),
+        })
+    return events
