@@ -76,8 +76,17 @@ def summarize_syllabus(
     )
     if not text:
         raise RuntimeError("Nova Lite returned no response text.")
+    json_text = text.strip()
+    if json_text.startswith("```"):
+        lines = json_text.splitlines()
+        if (
+            len(lines) >= 3
+            and lines[0].strip().lower() in {"```", "```json"}
+            and lines[-1].strip() == "```"
+        ):
+            json_text = "\n".join(lines[1:-1]).strip()
     try:
-        return SyllabusSummaryResponse.model_validate_json(text)
+        return SyllabusSummaryResponse.model_validate_json(json_text)
     except ValueError as error:
         raise RuntimeError(
             "Nova Lite returned a response that does not match the syllabus schema."
