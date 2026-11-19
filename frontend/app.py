@@ -21,11 +21,25 @@ if st.button("Build my planner", type="primary"):
         with st.spinner("Reading your syllabi..."):
             try:
                 st.session_state["summaries"] = api.summarize_files(uploaded_files)
+
+                #resets the calendar only after new results succeed.
+                st.session_state["calendar_revision"] = (
+                    st.session_state.get("calendar_revision", 0) + 1
+                )
             except Exception as error:
                 st.error(f"Something went wrong: {error}")
 
 if "summaries" in st.session_state:
     all_dates = planner.collect_dates(st.session_state["summaries"])
     dated, undated = planner.sort_dates(all_dates)
-    weeks = planner.group_by_week(dated)
-    display.show_week_calendar(weeks, undated)
+
+    #both views use the saved results without another call
+    view = st.radio("Calendar view", ["Month", "Week by week"], horizontal=True)
+
+    if view == "Month":
+        events = planner.to_calendar_events(dated)
+        revision = st.session_state.get("calendar_revision", 0)
+        display.show_month_calendar(events, undated, key=f"calendar_{revision}")
+    else:
+        weeks = planner.group_by_week(dated)
+        display.show_week_calendar(weeks, undated)

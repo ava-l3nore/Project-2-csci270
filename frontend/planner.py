@@ -18,7 +18,7 @@ def sort_dates(all_dates):
     dated = []
     undated = []
     for event in all_dates:
-        if event["date"]:
+        if event["date"] and event.get("date_precision") == "exact":
             dated.append(event)
         else:
             undated.append(event)
