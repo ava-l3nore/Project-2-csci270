@@ -2,13 +2,17 @@ from io import BytesIO
 from pathlib import Path
 from zipfile import BadZipFile
 
+import pymupdf
+import pytesseract
 from docx import Document
 from docx.opc.exceptions import PackageNotFoundError
 from docx.table import Table
 from docx.text.paragraph import Paragraph
 from fastapi import APIRouter, File, HTTPException, UploadFile
+from PIL import Image
 from pypdf import PdfReader
 from pypdf.errors import PdfReadError
+from pytesseract import TesseractError, TesseractNotFoundError
 
 from app.core.config import get_settings
 from app.models.syllabus import (
@@ -23,6 +27,8 @@ from app.services.nova_lite import summarize_syllabus
 router = APIRouter(prefix="/syllabi", tags=["syllabi"])
 MAX_BATCH_FILES = 8
 MAX_FILE_BYTES = 15 * 1024 * 1024
+MIN_PAGE_TEXT_CHARS = 40
+OCR_DPI = 300
 
 
 @router.post("/summarize", response_model=SyllabusSummaryResponse)
@@ -60,15 +66,56 @@ def extract_syllabus_text(filename: str, data: bytes) -> str:
     elif extension == ".pdf":
         try:
             reader = PdfReader(BytesIO(data))
-            text = "\n".join(
-                f"Page {number}\n{page.extract_text() or ''}"
-                for number, page in enumerate(reader.pages, start=1)
-            )
         except PdfReadError as error:
             raise HTTPException(
                 status_code=422,
                 detail=f"Could not read PDF: {filename}.",
             ) from error
+        page_texts = []
+        rendered_pdf = None
+        try:
+            for number, page in enumerate(reader.pages, start=1):
+                page_text = page.extract_text() or ""
+                if len("".join(page_text.split())) < MIN_PAGE_TEXT_CHARS:
+                    try:
+                        if rendered_pdf is None:
+                            rendered_pdf = pymupdf.open(
+                                stream=data,
+                                filetype="pdf",
+                            )
+                        rendered_page = rendered_pdf.load_page(number - 1)
+                        pixmap = rendered_page.get_pixmap(
+                            dpi=OCR_DPI,
+                            colorspace=pymupdf.csRGB,
+                            alpha=False,
+                        )
+                        image = Image.frombytes(
+                            "RGB",
+                            (pixmap.width, pixmap.height),
+                            pixmap.samples,
+                        )
+                        ocr_text = pytesseract.image_to_string(image)
+                    except TesseractNotFoundError as error:
+                        raise HTTPException(
+                            status_code=503,
+                            detail=(
+                                "Scanned PDF pages require Tesseract OCR. "
+                                "On macOS, install it with `brew install tesseract`, "
+                                "then restart the backend."
+                            ),
+                        ) from error
+                    except TesseractError as error:
+                        raise HTTPException(
+                            status_code=422,
+                            detail=f"OCR failed on page {number} of {filename}.",
+                        ) from error
+                    if len(ocr_text.strip()) > len(page_text.strip()):
+                        page_text = ocr_text
+                page_texts.append(f"Page {number}\n{page_text}")
+        finally:
+            if rendered_pdf is not None:
+                rendered_pdf.close()
+        text = "\n".join(page_texts)
     elif extension == ".docx":
         try:
             document = Document(BytesIO(data))

@@ -6,6 +6,7 @@ Upload your syllabi and get every due date from every class in one week-by-week 
 
 - Python 3.10 or newer
 - AWS access to Amazon Bedrock (Nova Lite), set up on your computer. Never put keys in the code or in `.env`.
+- For scanned PDFs on macOS, install Tesseract once with `brew install tesseract`.
 
 ## 1. Set up your AWS access (one time)
 
