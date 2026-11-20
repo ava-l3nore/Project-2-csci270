@@ -43,3 +43,21 @@ if "summaries" in st.session_state:
     else:
         weeks = planner.group_by_week(dated)
         display.show_week_calendar(weeks, undated)
+    with st.expander("Debug report (copy this)"):
+        lines = []
+        for s in st.session_state["summaries"]:
+            course = s["course"]
+            lines.append(f"COURSE: {course['code']} | term: {course['term']}")
+            lines.append(f"instructor: {s['instructor']['name']}")
+            dates = s["important_dates"]
+            exact = [d for d in dates if d["date"] and d["date_precision"] == "exact"]
+            outline = s.get("course_outline", [])
+            lines.append(f"important_dates: {len(dates)} | exact: {len(exact)} | outline items: {len(outline)}")
+            lines.append("-- important_dates --")
+            for d in dates:
+                lines.append(f"  {d['date']} | {d['date_precision']} | {d['type']} | {d['title']} | text: {d['date_text']}")
+            lines.append("-- course_outline --")
+            for o in outline:
+                lines.append(f"  {o['week_or_date']} | {o['topic']}")
+            lines.append("")
+        st.code("\n".join(lines), language=None)
