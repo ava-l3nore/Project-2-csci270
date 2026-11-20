@@ -5,6 +5,6 @@ An AI study-planning tool for summarizing course syllabi, tracking important dat
 ## Project layout
 
 - `backend/` — API and server-side integrations. See [backend/README.md](./backend/README.md) for setup.
-- `frontend/` — student-facing application (to be planned).
+- `frontend/` — Streamlit app with a month/week calendar. See [frontend/README.md](./frontend/README.md) for setup and testing.
 
 The backend currently provides a health check and a syllabus summarization endpoint that calls Amazon Nova Lite directly through Amazon Bedrock Runtime. Calendar persistence, catalog ingestion, and degree-progress planning are future work.

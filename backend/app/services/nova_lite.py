@@ -46,7 +46,15 @@ quiz, presentation, deadline, class_schedule, or other. Do not infer a year unle
 Do not expand recurring schedules into individual dates unless determinable.
 Include a concise course outline based on the syllabus schedule. Include short evidence excerpts for outline items, dates, and policies when available.
 Keep the summary student-friendly, and policies concise and faithful.
-Ensure the output is valid JSON with double quotes and no trailing commas."""
+Ensure the output is valid JSON with double quotes and no trailing commas.
+Put every quiz, homework, assignment, exam, and other dated item in important_dates, even if the same row also appears in course_outline.
+instructor name, email, and office_hours must each be a single string. If there are multiple instructors, combine them in one string separated by "; ".
+If the syllabus prints the term with a year (for example "Spring 2026"), use that year to write dates given as M/D in YYYY-MM-DD format.
+Only use date_precision "exact" when date is filled in.
+Set course_outline to an empty list []. Put every dated item only in important_dates: quizzes, exams, assignment and project due dates, presentations and speeches, and other deadlines.
+When presentations or speeches happen across several class days, add a separate entry for each day, with type "presentation".
+Give each entry a specific title from the syllabus, for example "Kanji Quiz Ch14", not just "Quiz".
+"""
 
 
 def summarize_syllabus(
@@ -65,7 +73,7 @@ def summarize_syllabus(
             }
         ],
         inferenceConfig={
-            "maxTokens": 4000,
+            "maxTokens": 8000,
             "temperature": 0.1,
         },
     )
@@ -76,15 +84,8 @@ def summarize_syllabus(
     )
     if not text:
         raise RuntimeError("Nova Lite returned no response text.")
-    json_text = text.strip()
-    if json_text.startswith("```"):
-        lines = json_text.splitlines()
-        if (
-            len(lines) >= 3
-            and lines[0].strip().lower() in {"```", "```json"}
-            and lines[-1].strip() == "```"
-        ):
-            json_text = "\n".join(lines[1:-1]).strip()
+    start, end = text.find("{"), text.rfind("}")
+    json_text = text[start : end + 1] if start != -1 and end > start else text.strip()
     try:
         return SyllabusSummaryResponse.model_validate_json(json_text)
     except ValueError as error:
