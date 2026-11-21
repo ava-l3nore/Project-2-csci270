@@ -1,41 +1,83 @@
-# Backend
+# Backend API
 
-FastAPI service that provides the API for syllabus summarization and, as the project grows, calendar and major-catalog features.
+This document covers setup and use of the FastAPI backend. For the project overview, see the [main README](../README.md).
 
-## Setup
+## Requirements
 
-Requires Python 3.10 or newer and AWS credentials authorized to invoke Amazon Nova Lite in Amazon Bedrock.
+- Python 3.10 or newer
+- AWS credentials with permission to invoke the selected Amazon Bedrock model
+- Tesseract OCR for scanned PDFs (`brew install tesseract` on macOS)
+
+## Local Setup
+
+From the repository root, create a virtual environment and install the backend dependencies:
 
 ```bash
 cd backend
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-cp .env.example .env
 ```
 
-Scanned PDFs use local Tesseract OCR. On macOS, install the OCR engine with:
+On Windows PowerShell, activate the environment with:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+## AWS Configuration
+
+The backend uses the AWS SDK credential provider chain. Do not put AWS access keys in `.env`.
+
+For an IAM user profile, configure AWS once:
 
 ```bash
-brew install tesseract
+aws configure --profile <profile>
 ```
 
-The Python PDF-rendering and OCR dependencies are installed by `requirements.txt`. OCR runs only on pages that contain little or no extractable text.
+For IAM Identity Center, sign in with:
 
-Set `AWS_REGION` to the Region where Nova Lite is enabled, and set `BEDROCK_MODEL_ID` if you need a model ID other than `amazon.nova-lite-v1:0`. Do not put AWS access keys in `.env`; use the AWS SDK credential provider chain. For local development with an IAM user profile, run `aws configure --profile <profile>` once, then set `AWS_PROFILE=<profile>` in your shell before starting the server. With IAM Identity Center, run `aws sso login --profile <profile>` first. The identity needs `bedrock:InvokeModel` permission for the chosen model.
+```bash
+aws sso login --profile <profile>
+```
 
-Start the API from the `backend/` directory:
+Before starting the backend, select the profile in the same terminal:
+
+```bash
+export AWS_PROFILE=<profile>
+```
+
+In Windows PowerShell, use:
+
+```powershell
+$env:AWS_PROFILE = "<profile>"
+```
+
+The selected identity needs `bedrock:InvokeModel` permission for the chosen model. Set `AWS_REGION` to a Region where the model is available. The default model ID is `amazon.nova-lite-v1:0`; set `BEDROCK_MODEL_ID` to use a different model.
+
+## Run the API
+
+From the `backend/` directory, with the virtual environment active and AWS profile configured:
 
 ```bash
 uvicorn app.main:app --reload
 ```
 
-- Health check: `GET http://localhost:8000/health`
-- Interactive API docs: `http://localhost:8000/docs`
-- Syllabus summary: `POST http://localhost:8000/api/v1/syllabi/summarize`
-- Batch file summaries: `POST http://localhost:8000/api/v1/syllabi/summarize-batch`
+The service runs at `http://localhost:8000`.
 
-Example request:
+## Endpoints
+
+| Method and path | Purpose |
+|---|---|
+| `GET /health` | Check whether the API is running. |
+| `POST /api/v1/syllabi/summarize` | Summarize syllabus text submitted as JSON. |
+| `POST /api/v1/syllabi/summarize-batch` | Extract and summarize uploaded syllabus files. |
+
+Interactive API documentation is available at `http://localhost:8000/docs` while the service is running.
+
+### Text summary
+
+Send a JSON request to `POST /api/v1/syllabi/summarize`:
 
 ```json
 {
@@ -44,16 +86,8 @@ Example request:
 }
 ```
 
-The text summary endpoint sends the supplied text directly to Nova Lite using the Bedrock Runtime Converse API and returns a validated structured response.
+### Batch file summary
 
-The batch endpoint accepts up to eight `.txt`, `.pdf`, or `.docx` files per request, with a 15 MiB limit per file. It extracts text and summarizes each file separately, returning each result with its upload index and filename. For PDFs, pages with little or no extractable text are rendered and processed with local Tesseract OCR. Uploaded files and extracted text are not stored.
+The batch endpoint accepts up to eight `.txt`, `.pdf`, or `.docx` files per request, with a maximum size of 15 MiB per file. It extracts text from each file and returns a structured summary with the upload index and filename. PDF pages with little extractable text are processed with local Tesseract OCR.
 
-## Planned backend areas
-
-- `app/api/routes/` — versioned HTTP endpoints.
-- `app/core/` — application configuration.
-- `app/models/` — validated API/domain models, including course and academic-event shapes.
-- `app/services/` — integrations and business logic, including Bedrock.
-- `app/repositories/` — future persistence boundary for syllabi, courses, and events.
-
-No database, catalog data source, or authentication is implemented yet; choose those before implementing persistent calendar and degree-progress features.
+The API response is validated against the Pydantic schema. Uploaded files and extracted text are not stored.
