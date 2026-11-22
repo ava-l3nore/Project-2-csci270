@@ -27,6 +27,11 @@ Use the planner when organizing coursework or reviewing upcoming syllabus dates.
 
 ## 5. Future Work
 
+Work Shift Schedule - Creating a system to allow users to add work hours into the the calendar for better planning.
+Update Calendar Year - Allow extended calendar to update based on the year.(Semester)
+Create Study Sessions - Let users schedule study sessions straight from the program and insert times into calendar.
+Major Tracking - Create a system to track the classes the student is required to take in order to graduate with that
+major. 
 
 
 ## Project Structure
