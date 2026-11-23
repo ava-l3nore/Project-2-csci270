@@ -1,10 +1,34 @@
-from fastapi import APIRouter
+from io import BytesIO
+from pathlib import Path
+from zipfile import BadZipFile
+
+import pymupdf
+import pytesseract
+from docx import Document
+from docx.opc.exceptions import PackageNotFoundError
+from docx.table import Table
+from docx.text.paragraph import Paragraph
+from fastapi import APIRouter, File, HTTPException, UploadFile
+from PIL import Image
+from pypdf import PdfReader
+from pypdf.errors import PdfReadError
+from pytesseract import TesseractError, TesseractNotFoundError
 
 from app.core.config import get_settings
-from app.models.syllabus import SyllabusSummaryRequest, SyllabusSummaryResponse
+from app.models.syllabus import (
+    BatchSyllabusSummaryResponse,
+    SyllabusFileResult,
+    SyllabusSummaryRequest,
+    SyllabusSummaryResponse,
+)
 from app.services.nova_lite import summarize_syllabus
 
+
 router = APIRouter(prefix="/syllabi", tags=["syllabi"])
+MAX_BATCH_FILES = 8
+MAX_FILE_BYTES = 15 * 1024 * 1024
+MIN_PAGE_TEXT_CHARS = 40
+OCR_DPI = 300
 
 
 @router.post("/summarize", response_model=SyllabusSummaryResponse)
@@ -17,7 +41,151 @@ def create_syllabus_summary(
         model_id=settings.bedrock_model_id,
         region=settings.aws_region,
     )
-    return SyllabusSummaryResponse(
-        course_name=request.course_name,
-        summary=summary,
-    )
+    if request.course_name is not None:
+        summary = summary.model_copy(
+            update={
+                "course": summary.course.model_copy(
+                    update={"name": request.course_name}
+                )
+            }
+        )
+    return summary
+
+
+def extract_syllabus_text(filename: str, data: bytes) -> str:
+    extension = Path(filename).suffix.lower()
+
+    if extension == ".txt":
+        try:
+            text = data.decode("utf-8")
+        except UnicodeDecodeError as error:
+            raise HTTPException(
+                status_code=422,
+                detail=f"{filename} is not valid UTF-8 text.",
+            ) from error
+    elif extension == ".pdf":
+        try:
+            reader = PdfReader(BytesIO(data))
+        except PdfReadError as error:
+            raise HTTPException(
+                status_code=422,
+                detail=f"Could not read PDF: {filename}.",
+            ) from error
+        page_texts = []
+        rendered_pdf = None
+        try:
+            for number, page in enumerate(reader.pages, start=1):
+                page_text = page.extract_text() or ""
+                if len("".join(page_text.split())) < MIN_PAGE_TEXT_CHARS:
+                    try:
+                        if rendered_pdf is None:
+                            rendered_pdf = pymupdf.open(
+                                stream=data,
+                                filetype="pdf",
+                            )
+                        rendered_page = rendered_pdf.load_page(number - 1)
+                        pixmap = rendered_page.get_pixmap(
+                            dpi=OCR_DPI,
+                            colorspace=pymupdf.csRGB,
+                            alpha=False,
+                        )
+                        image = Image.frombytes(
+                            "RGB",
+                            (pixmap.width, pixmap.height),
+                            pixmap.samples,
+                        )
+                        ocr_text = pytesseract.image_to_string(image)
+                    except TesseractNotFoundError as error:
+                        raise HTTPException(
+                            status_code=503,
+                            detail=(
+                                "Scanned PDF pages require Tesseract OCR. "
+                                "On macOS, install it with `brew install tesseract`, "
+                                "then restart the backend."
+                            ),
+                        ) from error
+                    except TesseractError as error:
+                        raise HTTPException(
+                            status_code=422,
+                            detail=f"OCR failed on page {number} of {filename}.",
+                        ) from error
+                    if len(ocr_text.strip()) > len(page_text.strip()):
+                        page_text = ocr_text
+                page_texts.append(f"Page {number}\n{page_text}")
+        finally:
+            if rendered_pdf is not None:
+                rendered_pdf.close()
+        text = "\n".join(page_texts)
+    elif extension == ".docx":
+        try:
+            document = Document(BytesIO(data))
+        except (BadZipFile, PackageNotFoundError) as error:
+            raise HTTPException(
+                status_code=422,
+                detail=f"Could not read DOCX: {filename}.",
+            ) from error
+        document_parts = []
+        for item in document.iter_inner_content():
+            if isinstance(item, Paragraph) and item.text:
+                document_parts.append(item.text)
+            elif isinstance(item, Table):
+                document_parts.extend(
+                    "\t".join(cell.text for cell in row.cells)
+                    for row in item.rows
+                )
+        text = "\n".join(document_parts)
+    else:
+        raise HTTPException(
+            status_code=415,
+            detail=f"Unsupported file type for {filename}; upload .txt, .pdf, or .docx.",
+        )
+
+    if not text.strip():
+        raise HTTPException(
+            status_code=422,
+            detail=f"No text could be extracted from {filename}.",
+        )
+    
+    return text
+
+
+@router.post(
+    "/summarize-batch",
+    response_model=BatchSyllabusSummaryResponse,
+)
+def summarize_syllabus_batch(
+    files: list[UploadFile] = File(...),
+) -> BatchSyllabusSummaryResponse:
+    if not files:
+        raise HTTPException(status_code=422, detail="Upload at least one file.")
+    if len(files) > MAX_BATCH_FILES:
+        raise HTTPException(
+            status_code=413,
+            detail=f"Upload no more than {MAX_BATCH_FILES} files at once.",
+        )
+
+    settings = get_settings()
+    results = []
+    for index, file in enumerate(files, start=1):
+        filename = file.filename or f"upload-{index}"
+        data = file.file.read(MAX_FILE_BYTES + 1)
+        if len(data) > MAX_FILE_BYTES:
+            raise HTTPException(
+                status_code=413,
+                detail=f"{filename} exceeds the 15 MB limit.",
+            )
+
+        text = extract_syllabus_text(filename, data)
+        summary = summarize_syllabus(
+            syllabus_text=text,
+            model_id=settings.bedrock_model_id,
+            region=settings.aws_region,
+        )
+        results.append(
+            SyllabusFileResult(
+                index=index,
+                filename=filename,
+                summary=summary,
+            )
+        )
+    return BatchSyllabusSummaryResponse(results=results)
