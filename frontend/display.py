@@ -25,7 +25,8 @@ def show_header(data):
 
 def show_summary(data):
     with st.container(border=True):
-        st.subheader("Summary")
+        course = data["course"]
+        st.subheader(course["code"] or course["name"] or "Summary")
         st.write(data["summary"])
 
 def show_undated(undated):
