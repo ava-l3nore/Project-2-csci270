@@ -1,0 +1,1358 @@
+[
+  {
+    "title": "Residence halls open. Move-in dates vary by residence hall and by appointment.",
+    "due_at": "2026-08-14",
+    "end_date": "2026-08-15",
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "New Student Convocation 7:00PM",
+    "due_at": "2026-08-16",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Fall full semester and Express I classes begin.",
+    "due_at": "2026-08-17",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day of Add/Drop for Express I classes.",
+    "due_at": "2026-08-19",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day for student to submit a request to Audit or apply for a Pass/Not Pass grade option for Express I full classes",
+    "due_at": "2026-08-19",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Departmental Chairs' SZAAREG Add Deadline for Express I",
+    "due_at": "2026-08-20",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day of Add/Drop for full semester classes.",
+    "due_at": "2026-08-21",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day for student to submit a request to Audit or apply for a Pass/Not Pass grade option for full semester classes.",
+    "due_at": "2026-08-21",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day for students to verify materials or opt-out of Cougar Complete.",
+    "due_at": "2026-08-21",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Departmental Chairs' SZAAREG Add Deadline for full semester",
+    "due_at": "2026-08-26",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Attendance Verification for faculty opens in MyPortal .",
+    "due_at": "2026-08-31",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day for faculty to submit Individual Enrollment and Bachelor's Essay applications to the Registrar's Office for all full semester, Express I and Express II classes.",
+    "due_at": "2026-09-02",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Attendance Verification for faculty closes at noon.",
+    "due_at": "2026-09-07",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day for students to withdraw with a status indicator of \"W\" from Express I classes. NOTE: Registration holds prevent students from being able to withdraw from a course in Banner Self-Service. Students should resolve their registration holds prior to this date if they wish to withdraw from a course.",
+    "due_at": "2026-09-11",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Storm Day Makeup (on campus instruction for PE Activity Courses, labs, studio, performance courses only; virtual instruction on these days for all other courses). (SD*)",
+    "due_at": "2026-09-19",
+    "end_date": "2026-09-20",
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day of Express I classes.",
+    "due_at": "2026-09-29",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Express I final exams for M/W classes.",
+    "due_at": "2026-09-30",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Full semester Mid Term and Express I Final grading open to faculty.",
+    "due_at": "2026-09-30",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Express I final exams for T/R classes.",
+    "due_at": "2026-10-01",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day to submit an Undergraduate Application to Graduate in Fall 2026.",
+    "due_at": "2026-10-01",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Full semester Mid Term and Express I final grades due at noon.",
+    "due_at": "2026-10-05",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Express II classes begin.",
+    "due_at": "2026-10-07",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day for students to submit incomplete undergraduate coursework to faculty for any Summer 2026 session (Summer 60-Day Deadline). Change of grade form to be submitted by faculty.",
+    "due_at": "2026-10-07",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day of Drop/Add for Express II classes.",
+    "due_at": "2026-10-09",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day for students to submit a request to Audit or apply for a Pass/Not Pass grade option for an Express II class.",
+    "due_at": "2026-10-09",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day to submit a Graduate Application to Graduate in Fall 2026",
+    "due_at": "2026-10-09",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Fall Break No Classes.",
+    "due_at": "2026-10-12",
+    "end_date": "2026-10-13",
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Undergraduate missing and incomplete grades for all Summer 2026 sessions convert to a grade of \"F\".",
+    "due_at": "2026-10-14",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Departmental Chairs' SZAAREG Deadline for Express II.",
+    "due_at": "2026-10-14",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Attendance Verification for Express II available and submitted via Deletion from the Grade Roll form via My Forms in MyPortal.",
+    "due_at": "2026-10-14",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day for students to withdraw with a status indicator of \"W\" from full semester classes. NOTE: Registration holds prevent students from being able to withdraw from a course in Banner Self-Service. Students should resolve their registration holds prior to this date if they wish to withdraw from a course.",
+    "due_at": "2026-10-22",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Spring 2027 registration begins for current Undergraduate students based on earned hours. See registration entry dates .",
+    "due_at": "2026-10-27",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Spring 2027 registration begins for all degree and certificate seeking Graduate students.",
+    "due_at": "2026-10-27",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "NOTE: Registration holds will prohibit students from being able to register. Students should settle holds with the office that placed the hold before their opportunity to register.",
+    "due_at": "2026-10-27",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Election Day. No Classes.",
+    "due_at": "2026-11-03",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Storm Day Makeup (on campus instruction for PE Activity Courses, labs, studio, performance courses only; virtual instruction on these days for all other courses). (SD*)",
+    "due_at": "2026-11-07",
+    "end_date": "2026-11-08",
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day for students to withdraw with a status indicator of \"W\" from Express II classes. NOTE: Registration holds prevent students from being able to withdraw from a course in Banner Self-Service. Students should resolve their registration holds prior to this date if they wish to withdraw from a course.",
+    "due_at": "2026-11-10",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Thanksgiving Holiday. No Classes.",
+    "due_at": "2026-11-25",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Thanksgiving Holiday. No Classes. College Closed.",
+    "due_at": "2026-11-26",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Thanksgiving Holiday. No Classes. College Closed.",
+    "due_at": "2026-11-27",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Thanksgiving Holiday. No Classes. College Closed.",
+    "due_at": "2026-11-28",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Thanksgiving Holiday. No Classes. College Closed.",
+    "due_at": "2026-11-29",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day of full semester classes and Express II classes.",
+    "due_at": "2026-12-01",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Spring 2026 registration begins for non-degree Graduate students.",
+    "due_at": "2026-12-01",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Reading Day",
+    "due_at": "2026-12-02",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Full semester and Express II final exams begin.",
+    "due_at": "2026-12-03",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Full semester and Express II grading open for faculty.",
+    "due_at": "2026-12-03",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Full semester and Express II final exams end.",
+    "due_at": "2026-12-08",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Residence halls close at noon.",
+    "due_at": "2026-12-09",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Graduate missing and incomplete grades for Spring 2026 and Summer 2026 sessions convert to a grade of \u201cF\u201d.",
+    "due_at": "2026-12-10",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Full semester and Express II final grades due at Noon. Faculty must submit a Change of Grade form after that time.",
+    "due_at": "2026-12-10",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Fall 2026 Commencement.#",
+    "due_at": "2026-12-11",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Last day for students to submit incomplete undergraduate coursework to faculty for any Fall 2026 class (Fall 60 Day Deadline). Change of grade form to be submitted by faculty.",
+    "due_at": "2027-02-09",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Undergraduate missing and incomplete grades for Fall 2026 sessions convert to a grade of \u201cF\u201d.",
+    "due_at": "2027-02-16",
+    "end_date": null,
+    "term": "2026 Fall Semester (August 17 - December 8)"
+  },
+  {
+    "title": "Residence halls open at 12 noon.",
+    "due_at": "2027-01-06",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Orientation for New Freshmen and Transfer students.",
+    "due_at": "2027-01-07",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Orientation for New Freshmen and Transfer students.",
+    "due_at": "2027-01-08",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Spring full semester and Express I classes begin.",
+    "due_at": "2027-01-11",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day of Drop/Add for Express I classes.",
+    "due_at": "2027-01-13",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day for students to submit a request to Audit or apply for a Pass/Not Pass grade option for Express I classes.",
+    "due_at": "2027-01-13",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day of Drop/Add for full semester classes.",
+    "due_at": "2027-01-15",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day for students to submit a request to Audit or apply for a Pass/Not Pass grade option full semester classes.",
+    "due_at": "2027-01-15",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Departmental Chairs' SZAAREG Deadline for Express I classes.",
+    "due_at": "2027-01-15",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Martin Luther King, Jr. Holiday, observed. No classes. College closed.",
+    "due_at": "2027-01-18",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Departmental Chairs' SZAAREG Deadline for full semester classes.",
+    "due_at": "2027-01-21",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Storm Day Makeup (on campus instruction for PE Activity Courses, labs, studio, performance courses only; virtual instruction on these days for all other courses). (SD*)",
+    "due_at": "2027-01-23",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Storm Day Makeup (on campus instruction for PE Activity Courses, labs, studio, performance courses only; virtual instruction on these days for all other courses). (SD*)",
+    "due_at": "2027-01-24",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day for faculty to submit Individual Enrollment and Bachelor's Essay applications to the Registrar's Office for all full semester, Express I and Express II classes.",
+    "due_at": "2027-01-28",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Attendance Verification for Express I and Full Semester opens to faculty.",
+    "due_at": "2027-01-29",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day to submit an Undergraduate Student Application to Graduate in Spring 2027 via My Portal.",
+    "due_at": "2027-02-05",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Attendance Verification for faculty closes at noon.",
+    "due_at": "2027-02-05",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Storm Day Makeup (on-campus instructions reserved particularly for PE Activity Courses. labs, studio, and performance courses; instructors for any courses my determine that either in-person or virtual is preferable for the courses in question; virtual instruction on these days for all other courses). (SD*)",
+    "due_at": "2027-02-06",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day for students to withdraw with a status indicator of \"W\" from Express I classes. NOTE: Registration holds prevent students from being able to withdraw from a course in Banner Self-Service. Students should resolve their registration holds prior to this date if they wish to withdraw from a course.",
+    "due_at": "2027-02-08",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Spring 2027 Express I Course-Instructor Evaluations open.",
+    "due_at": "2027-02-08",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day for students to submit incomplete undergraduate coursework to faculty for any Fall 2026 session (Fall 60 Day Deadline). Change of grade form to be submitted by faculty.",
+    "due_at": "2027-02-09",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day to submit an Graduate Student Application to Graduate in Spring 2027 via My Portal.",
+    "due_at": "2027-02-12",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Undergraduate missing and incomplete grades for Fall 2026 convert to a grade of \"F\".",
+    "due_at": "2027-02-16",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day of Express I classes.",
+    "due_at": "2027-02-24",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Full semester Mid Term and Express I final grading open to faculty.",
+    "due_at": "2027-02-24",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Express I final exams for T/R classes.",
+    "due_at": "2027-02-25",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Express I final exams for M/W classes.",
+    "due_at": "2027-02-26",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Spring Break. No classes.",
+    "due_at": "2027-02-27",
+    "end_date": "2027-03-07",
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Full semester Mid Term and Express I final grades due by noon (EST).",
+    "due_at": "2027-03-08",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Express II classes begin.",
+    "due_at": "2027-03-09",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day of Drop/Add for Express II classes.",
+    "due_at": "2027-03-11",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day for students to submit a request to Audit or apply for a Pass/Not Pass grade option for an Express II class.",
+    "due_at": "2027-03-11",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Department Chairs' SZAAREG Deadline for Express II classes.",
+    "due_at": "2027-03-12",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Summer Semester registration begins for current College of Charleston Undergraduate degree seeking students and Graduate degree and certificate seeking students.",
+    "due_at": "2027-03-12",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Attendance Verification for Express II available and submitted via Deletion from the Grade Roll form via My Forms in My Portal.",
+    "due_at": "2027-03-15",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Summer Semester registration begins for non-degree and visiting Undergraduate students.",
+    "due_at": "2027-03-19",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day for students to withdraw with a status indicator of \"W\" from full semester classes. NOTE: Registration holds prevent students from being able to withdraw from a course in Banner Self-Service. Students should resolve their registration holds prior to this date if they wish to withdraw from a course.",
+    "due_at": "2027-03-22",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Fall 2027 registration begins for Undergraduate students based on earned hours. See registration entry dates .",
+    "due_at": "2027-03-24",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Fall 2027 registration begins for all degree and certificate seeking Graduate students.",
+    "due_at": "2027-03-24",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "NOTE: Holds will prohibit students from being able to register. Students should settle holds with the office that placed the hold before their opportunity to register.",
+    "due_at": "2027-03-24",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Summer Semester registration begins for non-degree Graduate students.",
+    "due_at": "2027-04-01",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day for students to withdraw with a status indicator of \"W\" from Express II classes. NOTE: Registration holds prevent students from being able to withdraw from a course in Banner Self-Service. Students should resolve their registration holds prior to this date if they wish to withdraw from a course.",
+    "due_at": "2027-04-05",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Spring 2027 Full semester and Express II Course-Instructor Evaluations open.",
+    "due_at": "2027-04-05",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day of Express II classes.",
+    "due_at": "2027-04-21",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day of full semester classes.",
+    "due_at": "2027-04-26",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Reading Day",
+    "due_at": "2027-04-27",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Full semester and Express II grading open to faculty.",
+    "due_at": "2027-04-27",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "First day of full semester and Express II final exams.",
+    "due_at": "2027-04-28",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "A Charleston Affair",
+    "due_at": "2027-05-01",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Fall 2027 registration opens for non-degree Graduate Students.",
+    "due_at": "2027-05-03",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day of full semester and Express II final exams.",
+    "due_at": "2027-05-04",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Spring 2027 Full semester and Express II Course-Instructor Evaluations close.",
+    "due_at": "2027-05-04",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Residence halls close at noon.",
+    "due_at": "2027-05-05",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Full semester and Express II final grades due by NOON (ET). Faculty must submit a Change of Grade form for each student after the deadline.",
+    "due_at": "2027-05-06",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Graduate missing and incomplete grades for Fall 2026 convert to a grade of \"F\".",
+    "due_at": "2027-05-06",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Final grades for full semester and Express II classes available in My Portal",
+    "due_at": "2027-05-07",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Spring 2027 Commencement Ceremonies",
+    "due_at": "2027-05-07",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Spring 2027 Commencement Ceremony",
+    "due_at": "2027-05-08",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Degrees are scheduled to be posted on this date. Students should wait until after this date to order official transcripts if they want the degree to appear on the transcript.",
+    "due_at": "2027-05-11",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Last day for students to submit incomplete undergraduate coursework to faculty for any Spring 2027 class (Spring 60 Day Deadline). Change of grade form to be submitted by faculty.",
+    "due_at": "2027-07-06",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Undergraduate missing and incomplete grades for Spring 2027 sessions convert to a grade of \u201cF\u201d.",
+    "due_at": "2027-07-13",
+    "end_date": null,
+    "term": "2027 Spring Semester (January 11- May 4)"
+  },
+  {
+    "title": "Classes begin; Last day of Drop/Add for Maymester classes.",
+    "due_at": "2027-05-10",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Class Roll Verification for Maymester classes. DA/DS (Deletion from the Grade Roll via My Forms in My Portal) to be submitted by faculty.",
+    "due_at": "2027-05-10",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day for students to submit a request to Audit or apply for a Pass/Not Pass grade option for Maymester classes.",
+    "due_at": "2027-05-10",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Departmental Chairs' SZAAREG Deadline for Maymester.",
+    "due_at": "2027-05-11",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day to withdraw from Maymester classes with a status indicator of \"W\".",
+    "due_at": "2027-05-18",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Maymester 2027 Course-Instructor Evaluations open.",
+    "due_at": "2027-05-19",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day classes.",
+    "due_at": "2027-05-24",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Grading opens for faculty in My Portal.",
+    "due_at": "2027-05-24",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Final Exams. 8:30 a.m. - 11:30 a.m.",
+    "due_at": "2027-05-25",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Maymester 2027 Course-Instructor Evaluations close.",
+    "due_at": "2027-05-25",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Maymester final grades due by noon (EDT).",
+    "due_at": "2027-05-27",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day for students to submit incomplete undergraduate coursework to faculty for any Summer 2027 semester (Summer 60 Day Deadline). Change of Grade form to be submitted by faculty.",
+    "due_at": "2027-10-13",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Undergraduate missing and incomplete grades for all Summer 2027 semester convert to a grade of \"F\".",
+    "due_at": "2027-10-20",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Classes begin",
+    "due_at": "2027-05-10",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day of Drop/Add for Extended Summer classes.",
+    "due_at": "2027-05-11",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Class Roll Verification for Extended Summer classes. DA/DS (Deletion from the Grade Roll via My Forms in My Portal) to be submitted by faculty.",
+    "due_at": "2027-05-11",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day for students to submit a request to Audit or apply for a Pass/Not Pass grade option for Extended Summer classes.",
+    "due_at": "2027-05-11",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Departmental Chairs' SZAAREG Deadline for Extended Summer classes.",
+    "due_at": "2027-05-13",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Memorial Day - No Classes. College Closed.",
+    "due_at": "2027-05-31",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day to withdraw from Extended Summer classes with a status indicator of \"W\".",
+    "due_at": "2027-06-07",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Extended Summer 2027 Course-Instructor Evaluations open.",
+    "due_at": "2027-06-08",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day classes",
+    "due_at": "2027-06-21",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Grading opens for faculty in My Portal",
+    "due_at": "2027-06-21",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Final Exams for T/R classes.",
+    "due_at": "2027-06-22",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Final Exams for M/W classes",
+    "due_at": "2027-06-23",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Extended Summer 2027 Course-Instructor Evaluations close.",
+    "due_at": "2027-06-23",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Extended Summer final grades due by noon (EDT).",
+    "due_at": "2027-06-25",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day for students to submit incomplete undergraduate coursework to faculty for any Summer 2027 session (Summer 60 Day Deadline). Change of Grade form to be submitted by faculty.",
+    "due_at": "2027-10-13",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Undergraduate missing and incomplete grades for all Summer 2027 sessions convert to a grade of \"F\".",
+    "due_at": "2027-10-14",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Classes begin",
+    "due_at": "2027-06-01",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day of Drop/Add for Summer I classes.",
+    "due_at": "2027-06-01",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Class Roll Verification for Summer I classes. DA/DS (Deletion from the Grade Roll via My Forms in My Portal) to be submitted by faculty.",
+    "due_at": "2027-06-01",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day for students to submit a request to Audit or apply for a Pass/Not Pass grade option for Summer I classes.",
+    "due_at": "2027-06-01",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Departmental Chairs' SZAAREG Deadline for Summer I.",
+    "due_at": "2027-06-03",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day to withdraw from Summer I classes with a status indicator of \"W\".",
+    "due_at": "2027-06-17",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Summer I 2027 Course-Instructor Evaluations open.",
+    "due_at": "2027-06-18",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day of Summer I classes.",
+    "due_at": "2027-06-28",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Grading opens for faculty in My Portal.",
+    "due_at": "2027-06-28",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Final exams for classes that meet at 7:30 a.m. or 8:00 a.m. or 8:30 a.m. / 11:00 a.m. 11:30 a.m. or 12:00 p.m. / 4:00 p.m. or 4:30 p.m. ; begin at regularly scheduled meeting time and last up to 2 hours.",
+    "due_at": "2027-06-29",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Final exams for classes that meet at 9:00 a.m. or 9:30 a.m. or 10 a.m. / 1:00 pm. or 1:30 p.m. or 2:00 p.m. / 5:00 p.m. or 5:30 p.m. ; begin at regularly scheduled meeting time and last up to 2 hours.",
+    "due_at": "2027-06-30",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Summer I 2027 Course-Instructor Evaluations close.",
+    "due_at": "2027-06-30",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Summer I final grades due by noon (EST).",
+    "due_at": "2027-07-02",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day for students to submit incomplete undergraduate coursework to faculty for any Summer 2027 session (Summer 60 Day Deadline). Change of Grade form to be submitted by faculty.",
+    "due_at": "2027-10-13",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Undergraduate missing and incomplete grades for all Summer 2027 sessions convert to a grade of \"F\".",
+    "due_at": "2027-10-20",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Classes begin",
+    "due_at": "2027-07-06",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day of Drop/Add for Summer II classes.",
+    "due_at": "2027-07-06",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Class Roll Verification for Summer II classes. DA/DS (Deletion from the Grade Roll via My Forms in My Portal) to be submitted by faculty.",
+    "due_at": "2027-07-06",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day for students to submit a request to Audit or apply for a Pass/Not Pass grade option for Summer II classes.",
+    "due_at": "2027-07-06",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Departmental Chairs' SZAAREG Deadline for Summer II.",
+    "due_at": "2027-07-08",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Undergraduate missing and incomplete grades for Spring 2027 semester convert to a grade of \"F\".",
+    "due_at": "2027-07-13",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day for students to withdraw from Summer II classes with a status indicator of \"W\".",
+    "due_at": "2027-07-22",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Summer II 2027 Course-Instructor Evaluations open.",
+    "due_at": "2027-07-22",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day of classes.",
+    "due_at": "2027-08-02",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Grading opens for faculty in My Portal.",
+    "due_at": "2027-08-02",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Final exams for classes that meet at 7:30 a.m. or 8:00 a.m. or 8:30 a.m. / 11:00 a.m. 11:30 a.m. or 12:00 p.m. / 4:00 p.m. or 4:30 p.m. ; begin at regularly scheduled meeting time and last up to 2 hours.",
+    "due_at": "2027-08-03",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Final exams for classes that meet at 9:00 a.m. or 9:30 a.m. or 10 a.m. / 1:00 pm. or 1:30 p.m. or 2:00 p.m. / 5:00 p.m. or 5:30 p.m. ; begin at regularly scheduled meeting time and last up to 2 hours.",
+    "due_at": "2027-08-04",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Summer II 2027 Course-Instructor Evaluations close.",
+    "due_at": "2027-08-04",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Summer II and Summer Study Abroad final grades due by noon (EDT). Faculty must submit a Change of Grade form for each student after the noon deadline.",
+    "due_at": "2027-08-09",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Degrees are scheduled to be posted on this date. Students should wait until after this date to order official transcripts if they want the degree to appear on the transcript.",
+    "due_at": "2027-08-13",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Last day for students to submit incomplete undergraduate coursework to faculty for any Summer 2027 session (Summer 60 Day Deadline). Change of Grade form to be submitted by faculty.",
+    "due_at": "2027-10-13",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "Undergraduate missing and incomplete grades for all Summer 2027 sessions convert to a grade of \"F\".",
+    "due_at": "2027-10-20",
+    "end_date": null,
+    "term": "2027 Summer Semester (May 10- August 4)"
+  },
+  {
+    "title": "New Student Convocation",
+    "due_at": "2027-08-22",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Fall full semester and Express I classes begin.",
+    "due_at": "2027-08-23",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day of Add/Drop for Express I classes.",
+    "due_at": "2027-08-25",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day for student to submit a request to Audit or apply for a Pass/Not Pass grade option for Express I full classes",
+    "due_at": "2027-08-25",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Departmental Chairs' SZAAREG Deadline for Express I",
+    "due_at": "2027-08-26",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day of Add/Drop for full semester classes.",
+    "due_at": "2027-08-27",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day for student to submit a request to Audit or apply for a Pass/Not Pass grade option for full semester classes",
+    "due_at": "2027-08-27",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day for students to verify materials or opt out of Cougar Complete",
+    "due_at": "2027-08-27",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Departmental Chairs' SZAAREG Deadline for full semester",
+    "due_at": "2027-09-01",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Attendance Verification for faculty opens in MyPortal.",
+    "due_at": "2027-09-06",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day for faculty to submit Individual Enrollment and Bachelor's Essay applications to the Registrar's Office for all full semester, Express I and Express II classes.",
+    "due_at": "2027-09-08",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Attendance Verification for faculty closes at noon.",
+    "due_at": "2027-09-13",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day for students to withdraw with a status indicator of \"W\" from Express I classes. NOTE: Registration holds prevent students from being able to withdraw from a course in Banner Self-Service. Students should resolve their registration holds prior to this date if they wish to withdraw from a course.",
+    "due_at": "2027-09-16",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Storm Day Makeup (on campus instruction for PE Activity Courses, labs, studio, performance courses only; virtual instruction on these days for all other courses). (SD*)",
+    "due_at": "2027-09-25",
+    "end_date": "2027-09-26",
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day to submit an Undergraduate Application to Graduate in Fall 2027",
+    "due_at": "2027-10-01",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day of Express I classes.",
+    "due_at": "2027-10-05",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Express I final exams for M/W classes.",
+    "due_at": "2027-10-06",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Full semester Mid Term and Express I Final grading open to faculty.",
+    "due_at": "2027-10-06",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Express I final exams for T/R classes.",
+    "due_at": "2027-10-07",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Full semester Mid Term and Express I final grades due at noon.",
+    "due_at": "2027-10-11",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Express II classes begin- Last day of Drop/Add for Express II classes.",
+    "due_at": "2027-10-13",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day for students to submit incomplete undergraduate coursework to faculty for any Summer 2027 session (Summer 60-Day Deadline). Change of grade form to be submitted by faculty.",
+    "due_at": "2027-10-13",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day of Drop/Add for Express II classes.",
+    "due_at": "2027-10-15",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day for students to submit a request to Audit or apply for a Pass/Not Pass grade option for an Express II class.",
+    "due_at": "2027-10-15",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day to submit a Graduate Application to Graduate in Fall 2027.",
+    "due_at": "2027-10-15",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Fall Break. No Classes",
+    "due_at": "2027-10-18",
+    "end_date": "2027-10-19",
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Departmental Chairs' SZAAREG Deadline for Express II.",
+    "due_at": "2027-10-20",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Attendance Verification for Express II available and submitted via Deletion from the Grade Roll form via My Forms in My Portal.",
+    "due_at": "2027-10-20",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Undergraduate missing and incomplete grades for all Summer 2027 sessions convert to a grade of \"F\".",
+    "due_at": "2027-10-20",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day for students to withdraw with a status indicator of \"W\" from full semester classes. NOTE: Registration holds prevent students from being able to withdraw from a course in Banner Self-Service. Students should resolve their registration holds prior to this date if they wish to withdraw from a course.",
+    "due_at": "2027-10-26",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Spring 2028 registration begins for current degree seeking Undergraduate Students based on earned credit hours. See registration entry dates. NOTE: Holds will prohibit students from being able to register. Students should settle holds with the office that placed the hold before their opportunity to register.",
+    "due_at": "2027-11-02",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Spring 2028 registration begins for all degree and certificate seeking Graduate students.",
+    "due_at": "2027-11-02",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day for students to withdraw with a status indicator of \"W\" from Express II classes. NOTE: Registration holds prevent students from being able to withdraw from a course in Banner Self-Service. Students should resolve their registration holds prior to this date if they wish to withdraw from a course.",
+    "due_at": "2027-11-11",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Storm Day Makeup (on campus instruction for PE Activity Courses, labs, studio, performance courses only; virtual instruction on these days for all other courses). (SD*)",
+    "due_at": "2027-11-20",
+    "end_date": "2027-11-21",
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Thanksgiving Holiday. No Classes.",
+    "due_at": "2027-11-24",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Thanksgiving Holiday. No Classes. College Closed.",
+    "due_at": "2027-11-25",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Thanksgiving Holiday. No Classes. College Closed.",
+    "due_at": "2027-11-26",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Thanksgiving Holiday. No Classes. College Closed.",
+    "due_at": "2027-11-27",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Thanksgiving Holiday. No Classes. College Closed.",
+    "due_at": "2027-11-28",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day of full semester and Express II classes.",
+    "due_at": "2027-12-03",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Reading Day",
+    "due_at": "2027-12-04",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Full semester and Express II final exams begin.",
+    "due_at": "2027-12-05",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Full semester and Express II grading open for faculty.",
+    "due_at": "2027-12-05",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Full semester and Express II final exams end.",
+    "due_at": "2027-12-10",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Residence halls close at noon.",
+    "due_at": "2027-12-11",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Full semester and Express II final grades due at Noon. Faculty must submit a Change of Grade form after that time .",
+    "due_at": "2027-12-14",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Graduate missing and incomplete grades for Spring 2027 and Summer 2027 sessions convert to a grade of \u201cF\u201d.",
+    "due_at": "2027-12-14",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Fall 2027 Commencement.#",
+    "due_at": "2027-12-17",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Last day for students to submit incomplete undergraduate coursework to faculty for any Fall 2027 class (Fall 60 Day Deadline). Change of grade form to be submitted by faculty.",
+    "due_at": "2028-02-14",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  },
+  {
+    "title": "Undergraduate missing and incomplete grades for Fall 2025 sessions convert to a grade of \u201cF\u201d.",
+    "due_at": "2028-02-21",
+    "end_date": null,
+    "term": "2027 Fall Semester (August 23 - December 10)"
+  }
+]

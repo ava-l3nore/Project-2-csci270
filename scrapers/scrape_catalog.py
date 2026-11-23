@@ -71,3 +71,5 @@ def fetch_majors(major, URL):
 
     return html
 
+if __name__=="__main__":
+    main()
