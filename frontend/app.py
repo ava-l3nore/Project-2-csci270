@@ -33,6 +33,9 @@ if "summaries" in st.session_state:
     all_dates = planner.collect_dates(st.session_state["summaries"])
     dated, undated = planner.sort_dates(all_dates)
 
+    for summary in st.session_state["summaries"]:
+        display.show_summary(summary)
+
     #both views use the saved results without another call
     view = st.radio("Calendar view", ["Month", "Week by week"], horizontal=True)
 
