@@ -11,16 +11,6 @@ DATE_RE = re.compile(r"(" + "|".join(MONTHS) + r")\s+(\d{1,2})")
 YEAR_RE = re.compile(r"\b(20\d\d)\b")
 
 
-def main():
-    events = parse_calendar()
-
-    os.makedirs("data", exist_ok=True)
-    with open("data/calendar.json", "w", encoding="utf-8") as f:
-        json.dump(events, f, indent=2)
-
-    print("calendar events found:", len(events))
-
-
 def parse_calendar():
     soup = BeautifulSoup(fetch_calendar(), "html.parser")
     return walker(soup)

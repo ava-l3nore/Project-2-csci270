@@ -1,6 +1,7 @@
 import boto3
 
 from app.models.syllabus import SyllabusSummaryResponse
+from app.services.academic_calendar import calendar_context
 
 SYLLABUS_INSTRUCTIONS = """You are a careful academic syllabus assistant.
 Analyze the supplied syllabus and extract only information supported by it.
@@ -54,6 +55,11 @@ Only use date_precision "exact" when date is filled in.
 Set course_outline to an empty list []. Put every dated item only in important_dates: quizzes, exams, assignment and project due dates, presentations and speeches, and other deadlines.
 When presentations or speeches happen across several class days, add a separate entry for each day, with type "presentation".
 Give each entry a specific title from the syllabus, for example "Kanji Quiz Ch14", not just "Quiz".
+
+You may also be given the official College of Charleston academic calendar, labeled "OFFICIAL COFC ACADEMIC CALENDAR". It is trusted reference data.
+Use it to fill in exact dates when the syllabus mentions a college deadline or break without a date (for example "the last day to withdraw" or "no class over spring break"), and to confirm the year of the term.
+Also add the term's key college dates to important_dates: last day to drop/add, last day to withdraw with a W, breaks and holidays with no classes, last day of classes, and the final exam period. Use type "deadline" for drop/add and withdrawal and "other" for the rest, with evidence "CofC academic calendar".
+Never change a date the syllabus states. If the syllabus and the calendar disagree, keep the syllabus date and add an entry to uncertainties.
 """
 
 
@@ -62,6 +68,11 @@ def summarize_syllabus(
     model_id: str,
     region: str,
 ) -> SyllabusSummaryResponse:
+    content = [{"text": syllabus_text}]
+    calendar = calendar_context(syllabus_text)
+    if calendar:
+        content.append({"text": "OFFICIAL COFC ACADEMIC CALENDAR:\n" + calendar})
+
     client = boto3.client("bedrock-runtime", region_name=region)
     response = client.converse(
         modelId=model_id,
@@ -69,7 +80,7 @@ def summarize_syllabus(
         messages=[
             {
                 "role": "user",
-                "content": [{"text": syllabus_text}],
+                "content": content,
             }
         ],
         inferenceConfig={
