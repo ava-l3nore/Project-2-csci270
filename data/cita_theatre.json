@@ -1,0 +1,202 @@
+[
+  {
+    "heading": "Major Requirements",
+    "courses": []
+  },
+  {
+    "heading": "Computing in the Arts Shared Core Requirements",
+    "courses": [
+      "CITA 120 Animation and Virtual Worlds (3)",
+      "CITA 140 Graphic Design and Digital Media (3)",
+      "CITA 180 Computers, Music, and Art (3)",
+      "CSCI 120 Animation and Virtual Worlds (3)",
+      "CSCI 140 Graphic Design and Digital Media (3)",
+      "CSCI 180 Computers, Music and Art (3)",
+      "CITA 280 Game Programming (3)",
+      "CSCI 280 Game Programming (3)",
+      "CITA 282 Virtual and Augmented Reality Development (3)",
+      "CSCI 282 Virtual and Augmented Reality Development (3)",
+      "CITA 284 Digital Media Programming (3)",
+      "CSCI 284 Digital Media Programming (3)",
+      "CITA 395 CITA Practicum (3)",
+      "CITA 495 CITA Capstone (3)",
+      "CSCI 495 Software Engineering Capstone (3)",
+      "CSCI 220 Computer Programming I (3)",
+      "CSCI 220L Programming I Laboratory (1)",
+      "CSCI 221 Computer Programming II (3)",
+      "CSCI 300 Seminar on Computing and Society (3)",
+      "CSCI 380 User Interface Development (3)",
+      "CITA 280 Game Programming (3)",
+      "CITA 282 Virtual and Augmented Reality Development (3)",
+      "CITA 284 Digital Media Programming (3)",
+      "CSCI 230 Data Structures and Algorithms (3)",
+      "CSCI 250 Introduction to Computer Organization and Assembly Language Programming (3)",
+      "CSCI 270 Applied Artificial Intelligence (3)",
+      "CSCI 280 Game Programming (3)",
+      "CSCI 282 Virtual and Augmented Reality Development (3)",
+      "CSCI 284 Digital Media Programming (3)",
+      "CSCI 315 Server-Side Web Programming (3)",
+      "CSCI 320 Programming Language Concepts (3)",
+      "CSCI 325 Functional and Logic Programming (3)",
+      "CSCI 334 Machine Learning and Data Mining (3)",
+      "CSCI 340 Operating Systems (3)",
+      "CSCI 345 Computer and Network Security (3)",
+      "CSCI 350 Digital Logic and Computer Organization (3)",
+      "CSCI 360 Software Architecture, Security, and Testing (3)",
+      "CSCI 362 Software Engineering (3)",
+      "CSCI 370 Mobile Application Development (3)",
+      "CSCI 390 Special Topics in Computing (3)",
+      "CSCI 399 Tutorial (3)",
+      "CSCI 410 Automata and Formal Languages (3)",
+      "CSCI 420 Principles of Compiler Design (3)",
+      "CSCI 431 Database Concepts (3)",
+      "CSCI 470 Principles of Artificial Intelligence (3)",
+      "CSCI 480 Principles of Computer Graphics (3)",
+      "MATH 111 Pre-Calculus Mathematics (4)",
+      "MATH 116 Calculus for Business and Social Sciences (3)",
+      "MATH 120 Introductory Calculus (4)",
+      "MATH 207 Discrete Structures I (3)",
+      "COMM 104 Public Speaking (3)"
+    ]
+  },
+  {
+    "heading": "Complete 3 credit hours from the following:",
+    "courses": [
+      "CITA 120 Animation and Virtual Worlds (3)",
+      "CITA 140 Graphic Design and Digital Media (3)",
+      "CITA 180 Computers, Music, and Art (3)",
+      "CSCI 120 Animation and Virtual Worlds (3)",
+      "CSCI 140 Graphic Design and Digital Media (3)",
+      "CSCI 180 Computers, Music and Art (3)"
+    ]
+  },
+  {
+    "heading": "Complete 6 credits hours from:",
+    "courses": [
+      "CITA 280 Game Programming (3)",
+      "CSCI 280 Game Programming (3)",
+      "CITA 282 Virtual and Augmented Reality Development (3)",
+      "CSCI 282 Virtual and Augmented Reality Development (3)",
+      "CITA 284 Digital Media Programming (3)",
+      "CSCI 284 Digital Media Programming (3)"
+    ]
+  },
+  {
+    "heading": "Required CITA Courses",
+    "courses": [
+      "CITA 395 CITA Practicum (3)",
+      "CITA 495 CITA Capstone (3)",
+      "CSCI 495 Software Engineering Capstone (3)"
+    ]
+  },
+  {
+    "heading": "Required CSCI Courses",
+    "courses": [
+      "CSCI 220 Computer Programming I (3)",
+      "CSCI 220L Programming I Laboratory (1)",
+      "CSCI 221 Computer Programming II (3)",
+      "CSCI 300 Seminar on Computing and Society (3)",
+      "CSCI 380 User Interface Development (3)"
+    ]
+  },
+  {
+    "heading": "Complete 6 credit hours from the following:",
+    "courses": [
+      "CITA 280 Game Programming (3)",
+      "CITA 282 Virtual and Augmented Reality Development (3)",
+      "CITA 284 Digital Media Programming (3)",
+      "CSCI 230 Data Structures and Algorithms (3)",
+      "CSCI 250 Introduction to Computer Organization and Assembly Language Programming (3)",
+      "CSCI 270 Applied Artificial Intelligence (3)",
+      "CSCI 280 Game Programming (3)",
+      "CSCI 282 Virtual and Augmented Reality Development (3)",
+      "CSCI 284 Digital Media Programming (3)",
+      "CSCI 315 Server-Side Web Programming (3)",
+      "CSCI 320 Programming Language Concepts (3)",
+      "CSCI 325 Functional and Logic Programming (3)",
+      "CSCI 334 Machine Learning and Data Mining (3)",
+      "CSCI 340 Operating Systems (3)",
+      "CSCI 345 Computer and Network Security (3)",
+      "CSCI 350 Digital Logic and Computer Organization (3)",
+      "CSCI 360 Software Architecture, Security, and Testing (3)",
+      "CSCI 362 Software Engineering (3)",
+      "CSCI 370 Mobile Application Development (3)",
+      "CSCI 390 Special Topics in Computing (3)",
+      "CSCI 399 Tutorial (3)",
+      "CSCI 410 Automata and Formal Languages (3)",
+      "CSCI 420 Principles of Compiler Design (3)",
+      "CSCI 431 Database Concepts (3)",
+      "CSCI 470 Principles of Artificial Intelligence (3)",
+      "CSCI 480 Principles of Computer Graphics (3)"
+    ]
+  },
+  {
+    "heading": "Math Requirement",
+    "courses": [
+      "MATH 111 Pre-Calculus Mathematics (4)",
+      "MATH 116 Calculus for Business and Social Sciences (3)",
+      "MATH 120 Introductory Calculus (4)",
+      "MATH 207 Discrete Structures I (3)"
+    ]
+  },
+  {
+    "heading": "Notes:",
+    "courses": []
+  },
+  {
+    "heading": "Communication Requirement",
+    "courses": [
+      "COMM 104 Public Speaking (3)"
+    ]
+  },
+  {
+    "heading": "Theatre Concentration",
+    "courses": [
+      "THTR 230 Fundamentals of Theatrical Design (3)"
+    ]
+  },
+  {
+    "heading": "Complete 3 credit hours from the following:",
+    "courses": [
+      "THTR 175 Art and Craft of Theatre (3)",
+      "THTR 276 Script Analysis (3)"
+    ]
+  },
+  {
+    "heading": "Complete 3 credit hours from the following:",
+    "courses": [
+      "THTR 209 Applied Construction Technology (3)",
+      "THTR 240 Applied Costume Technology (3)"
+    ]
+  },
+  {
+    "heading": "Complete 9 additional credit hours from the following:",
+    "courses": [
+      "THTR 175 Art and Craft of Theatre (3)",
+      "THTR 207 Rendering for Design (3)",
+      "THTR 209 Applied Construction Technology (3)",
+      "THTR 240 Applied Costume Technology (3)",
+      "THTR 276 Script Analysis (3)",
+      "THTR 314 Dramaturgy (3)",
+      "THTR 321 Children\u2019s Theatre (3)",
+      "THTR 340 Costuming II: Pattern Drafting and Advanced Sewing Techniques (3)",
+      "THTR 350 Selected Topics in Communication Production (3)",
+      "THTR 355 Playwriting I (3)",
+      "THTR 378 Principles of Directing for Theatre (3)",
+      "THTR 380 Sound Design and Production for the Stage (3)",
+      "THTR 381 Theatre Graphics and Computer Aided Drafting (3)",
+      "THTR 382 Stage Lighting (3)",
+      "THTR 383 Scenic Design (3)",
+      "THTR 387 Contemporary Theatre (3)",
+      "THTR 389 Devised Theatre (3)",
+      "THTR 399 Tutorial (1-3)",
+      "THTR 401 Advanced Problems in Design (3)",
+      "THTR 440 Costume Design (3)",
+      "THTR 490 Independent Study in Theatre (1-3)"
+    ]
+  },
+  {
+    "heading": "Coursework Meeting Major Requirements Excluded from the Major GPA Calculation",
+    "courses": []
+  }
+]

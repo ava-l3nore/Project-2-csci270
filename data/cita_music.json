@@ -1,0 +1,186 @@
+[
+  {
+    "heading": "Major Requirements",
+    "courses": []
+  },
+  {
+    "heading": "Computing in the Arts Shared Core Requirements",
+    "courses": [
+      "CITA 120 Animation and Virtual Worlds (3)",
+      "CITA 140 Graphic Design and Digital Media (3)",
+      "CITA 180 Computers, Music, and Art (3)",
+      "CSCI 120 Animation and Virtual Worlds (3)",
+      "CSCI 140 Graphic Design and Digital Media (3)",
+      "CSCI 180 Computers, Music and Art (3)",
+      "CITA 280 Game Programming (3)",
+      "CSCI 280 Game Programming (3)",
+      "CITA 282 Virtual and Augmented Reality Development (3)",
+      "CSCI 282 Virtual and Augmented Reality Development (3)",
+      "CITA 284 Digital Media Programming (3)",
+      "CSCI 284 Digital Media Programming (3)",
+      "CITA 395 CITA Practicum (3)",
+      "CITA 495 CITA Capstone (3)",
+      "CSCI 495 Software Engineering Capstone (3)",
+      "CSCI 220 Computer Programming I (3)",
+      "CSCI 220L Programming I Laboratory (1)",
+      "CSCI 221 Computer Programming II (3)",
+      "CSCI 300 Seminar on Computing and Society (3)",
+      "CSCI 380 User Interface Development (3)",
+      "CITA 280 Game Programming (3)",
+      "CITA 282 Virtual and Augmented Reality Development (3)",
+      "CITA 284 Digital Media Programming (3)",
+      "CSCI 230 Data Structures and Algorithms (3)",
+      "CSCI 250 Introduction to Computer Organization and Assembly Language Programming (3)",
+      "CSCI 270 Applied Artificial Intelligence (3)",
+      "CSCI 280 Game Programming (3)",
+      "CSCI 282 Virtual and Augmented Reality Development (3)",
+      "CSCI 284 Digital Media Programming (3)",
+      "CSCI 315 Server-Side Web Programming (3)",
+      "CSCI 320 Programming Language Concepts (3)",
+      "CSCI 325 Functional and Logic Programming (3)",
+      "CSCI 334 Machine Learning and Data Mining (3)",
+      "CSCI 340 Operating Systems (3)",
+      "CSCI 345 Computer and Network Security (3)",
+      "CSCI 350 Digital Logic and Computer Organization (3)",
+      "CSCI 360 Software Architecture, Security, and Testing (3)",
+      "CSCI 362 Software Engineering (3)",
+      "CSCI 370 Mobile Application Development (3)",
+      "CSCI 390 Special Topics in Computing (3)",
+      "CSCI 399 Tutorial (3)",
+      "CSCI 410 Automata and Formal Languages (3)",
+      "CSCI 420 Principles of Compiler Design (3)",
+      "CSCI 431 Database Concepts (3)",
+      "CSCI 470 Principles of Artificial Intelligence (3)",
+      "CSCI 480 Principles of Computer Graphics (3)",
+      "MATH 111 Pre-Calculus Mathematics (4)",
+      "MATH 116 Calculus for Business and Social Sciences (3)",
+      "MATH 120 Introductory Calculus (4)",
+      "MATH 207 Discrete Structures I (3)",
+      "COMM 104 Public Speaking (3)"
+    ]
+  },
+  {
+    "heading": "Complete 3 credit hours from the following:",
+    "courses": [
+      "CITA 120 Animation and Virtual Worlds (3)",
+      "CITA 140 Graphic Design and Digital Media (3)",
+      "CITA 180 Computers, Music, and Art (3)",
+      "CSCI 120 Animation and Virtual Worlds (3)",
+      "CSCI 140 Graphic Design and Digital Media (3)",
+      "CSCI 180 Computers, Music and Art (3)"
+    ]
+  },
+  {
+    "heading": "Complete 6 credits hours from:",
+    "courses": [
+      "CITA 280 Game Programming (3)",
+      "CSCI 280 Game Programming (3)",
+      "CITA 282 Virtual and Augmented Reality Development (3)",
+      "CSCI 282 Virtual and Augmented Reality Development (3)",
+      "CITA 284 Digital Media Programming (3)",
+      "CSCI 284 Digital Media Programming (3)"
+    ]
+  },
+  {
+    "heading": "Required CITA Courses",
+    "courses": [
+      "CITA 395 CITA Practicum (3)",
+      "CITA 495 CITA Capstone (3)",
+      "CSCI 495 Software Engineering Capstone (3)"
+    ]
+  },
+  {
+    "heading": "Required CSCI Courses",
+    "courses": [
+      "CSCI 220 Computer Programming I (3)",
+      "CSCI 220L Programming I Laboratory (1)",
+      "CSCI 221 Computer Programming II (3)",
+      "CSCI 300 Seminar on Computing and Society (3)",
+      "CSCI 380 User Interface Development (3)"
+    ]
+  },
+  {
+    "heading": "Complete 6 credit hours from the following:",
+    "courses": [
+      "CITA 280 Game Programming (3)",
+      "CITA 282 Virtual and Augmented Reality Development (3)",
+      "CITA 284 Digital Media Programming (3)",
+      "CSCI 230 Data Structures and Algorithms (3)",
+      "CSCI 250 Introduction to Computer Organization and Assembly Language Programming (3)",
+      "CSCI 270 Applied Artificial Intelligence (3)",
+      "CSCI 280 Game Programming (3)",
+      "CSCI 282 Virtual and Augmented Reality Development (3)",
+      "CSCI 284 Digital Media Programming (3)",
+      "CSCI 315 Server-Side Web Programming (3)",
+      "CSCI 320 Programming Language Concepts (3)",
+      "CSCI 325 Functional and Logic Programming (3)",
+      "CSCI 334 Machine Learning and Data Mining (3)",
+      "CSCI 340 Operating Systems (3)",
+      "CSCI 345 Computer and Network Security (3)",
+      "CSCI 350 Digital Logic and Computer Organization (3)",
+      "CSCI 360 Software Architecture, Security, and Testing (3)",
+      "CSCI 362 Software Engineering (3)",
+      "CSCI 370 Mobile Application Development (3)",
+      "CSCI 390 Special Topics in Computing (3)",
+      "CSCI 399 Tutorial (3)",
+      "CSCI 410 Automata and Formal Languages (3)",
+      "CSCI 420 Principles of Compiler Design (3)",
+      "CSCI 431 Database Concepts (3)",
+      "CSCI 470 Principles of Artificial Intelligence (3)",
+      "CSCI 480 Principles of Computer Graphics (3)"
+    ]
+  },
+  {
+    "heading": "Math Requirement",
+    "courses": [
+      "MATH 111 Pre-Calculus Mathematics (4)",
+      "MATH 116 Calculus for Business and Social Sciences (3)",
+      "MATH 120 Introductory Calculus (4)",
+      "MATH 207 Discrete Structures I (3)"
+    ]
+  },
+  {
+    "heading": "Notes:",
+    "courses": []
+  },
+  {
+    "heading": "Communication Requirement",
+    "courses": [
+      "COMM 104 Public Speaking (3)"
+    ]
+  },
+  {
+    "heading": "Music Concentration",
+    "courses": [
+      "MUSC 146 Fundamentals of Music (3)",
+      "MUSC 246 Music Theory I (3)"
+    ]
+  },
+  {
+    "heading": "Elective Requirements:",
+    "courses": [
+      "MUSC 247 Music Theory II (3)",
+      "MUSC 280 Music as Culture (3)",
+      "MUSC 345 Jazz Theory (3)",
+      "MUSC 349 Jazz Arranging (3)",
+      "MUSC 351 Seminar in Music Composition (3)",
+      "MUSC 352 Seminar in Music Composition II (3)",
+      "MUSC 381 Music History I (3)",
+      "MUSC 382 Music History II (3)",
+      "MUSC 399 Tutorial (3)",
+      "MUSC 460 Senior Independent Study in Music Theory or Composition (3 or 6)",
+      "MUSC 481 Music Theory III (3)",
+      "MUSC 482 Music Theory IV (3)",
+      "MUSC 499A Bachelor\u2019s Essay (3)",
+      "MUSC 499B Bachelor\u2019s Essay (3)"
+    ]
+  },
+  {
+    "heading": "Notes:",
+    "courses": []
+  },
+  {
+    "heading": "Coursework Meeting Major Requirements Excluded from the Major GPA Calculation",
+    "courses": []
+  }
+]

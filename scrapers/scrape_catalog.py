@@ -64,7 +64,7 @@ def fetch_majors(major, URL):
             html = page.content()
             b.close()
 
-        if len(html) < 50_000 or "li.acalog-course" not in html:
+        if len(html) < 50_000 or "acalog-course" not in html:
             raise RuntimeError(f"bad fetch: {len(html)} chars")
 
         open(CACHE, "w", encoding="utf-8").write(html)

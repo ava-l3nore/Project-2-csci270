@@ -1,0 +1,55 @@
+[
+  {
+    "heading": "Major Requirements",
+    "courses": []
+  },
+  {
+    "heading": "Required Courses",
+    "courses": [
+      "DATA 101 Introduction to Data Science (3)",
+      "DATA 221 Applied Data Analytics (3)",
+      "DATA 495 Data Science Capstone (3)",
+      "CSCI 495 Software Engineering Capstone (3)"
+    ]
+  },
+  {
+    "heading": "Math Requirement",
+    "courses": [
+      "MATH 120 Introductory Calculus (4)",
+      "MATH 203 Linear Algebra (3)",
+      "MATH 207 Discrete Structures I (3)",
+      "MATH 250 Statistical Methods I (3)",
+      "MATH 350 Statistical Methods II (3)",
+      "MATH 440 Statistical Learning I (3)",
+      "MATH 441 Statistical Learning II (3)"
+    ]
+  },
+  {
+    "heading": "Note:",
+    "courses": []
+  },
+  {
+    "heading": "Computer Science Requirement",
+    "courses": [
+      "CSCI 220 Computer Programming I (3)",
+      "CSCI 220L Programming I Laboratory (1)",
+      "CSCI 221 Computer Programming II (3)",
+      "CSCI 230 Data Structures and Algorithms (3)",
+      "CSCI 310 Advanced Algorithms (3)",
+      "CSCI 334 Machine Learning and Data Mining (3)",
+      "CSCI 470 Principles of Artificial Intelligence (3)"
+    ]
+  },
+  {
+    "heading": "Elective Requirement",
+    "courses": []
+  },
+  {
+    "heading": "Notes:",
+    "courses": []
+  },
+  {
+    "heading": "Coursework Meeting Major Requirements Excluded from the Major GPA Calculation",
+    "courses": []
+  }
+]
