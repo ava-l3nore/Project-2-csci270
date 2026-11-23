@@ -1,0 +1,62 @@
+[
+  {
+    "heading": "Major Requirements",
+    "courses": []
+  },
+  {
+    "heading": "Computer Science Foundation",
+    "courses": [
+      "CSCI 218 Engineering Programming (3)",
+      "CSCI 218L Engineering Programming Lab (1)",
+      "CSCI 220 Computer Programming I (3)",
+      "CSCI 220L Programming I Laboratory (1)",
+      "CSCI 221 Computer Programming II (3)",
+      "CSCI 230 Data Structures and Algorithms (3)",
+      "CSCI 300 Seminar on Computing and Society (3)",
+      "CSCI 320 Programming Language Concepts (3)",
+      "CSCI 431 Database Concepts (3)"
+    ]
+  },
+  {
+    "heading": "Software Engineering Coursework",
+    "courses": [
+      "CSCI 360 Software Architecture, Security, and Testing (3)",
+      "CSCI 362 Software Engineering (3)",
+      "CSCI 380 User Interface Development (3)",
+      "CSCI 495 Software Engineering Capstone (3)"
+    ]
+  },
+  {
+    "heading": "Software Engineering and Computer Science Electives",
+    "courses": []
+  },
+  {
+    "heading": "Math Requirements",
+    "courses": [
+      "MATH 120 Introductory Calculus (4)",
+      "MATH 207 Discrete Structures I (3)"
+    ]
+  },
+  {
+    "heading": "Note:",
+    "courses": []
+  },
+  {
+    "heading": "Communications Requirement",
+    "courses": [
+      "COMM 104 Public Speaking (3)"
+    ]
+  },
+  {
+    "heading": "Additional Requirement",
+    "courses": []
+  },
+  {
+    "heading": "Note:",
+    "courses": []
+  },
+  {
+    "heading": "Coursework Meeting Major Requirements Excluded from the Major GPA Calculation",
+    "courses": []
+  }
+]

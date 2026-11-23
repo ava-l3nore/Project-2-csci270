@@ -1,0 +1,101 @@
+[
+  {
+    "heading": "Major Requirements",
+    "courses": []
+  },
+  {
+    "heading": "Required Courses",
+    "courses": [
+      "CSCI 111 Introduction to Cybersecurity (3)",
+      "CSCI 115 Website Design (3)",
+      "CSCI 215 Website Programming (3)",
+      "CSCI 220 Computer Programming I (3)",
+      "CSCI 220L Programming I Laboratory (1)",
+      "CSCI 218 Engineering Programming (3)",
+      "CSCI 218L Engineering Programming Lab (1)",
+      "CSCI 221 Computer Programming II (3)",
+      "CSCI 300 Seminar on Computing and Society (3)",
+      "CSCI 315 Server-Side Web Programming (3)",
+      "CSCI 380 User Interface Development (3)",
+      "CSCI 431 Database Concepts (3)",
+      "CSCI 495 Software Engineering Capstone (3)"
+    ]
+  },
+  {
+    "heading": "Computer Science / Data Science Elective",
+    "courses": [
+      "CITA 282 Virtual and Augmented Reality Development (3)",
+      "CSCI 230 Data Structures and Algorithms (3)",
+      "CSCI 250 Introduction to Computer Organization and Assembly Language Programming (3)",
+      "CSCI 270 Applied Artificial Intelligence (3)",
+      "CSCI 280 Game Programming (3)",
+      "CSCI 282 Virtual and Augmented Reality Development (3)",
+      "CSCI 299 Special Topics in Computer Science (3)",
+      "CSCI 310 Advanced Algorithms (3)",
+      "CSCI 320 Programming Language Concepts (3)",
+      "CSCI 325 Functional and Logic Programming (3)",
+      "CSCI 334 Machine Learning and Data Mining (3)",
+      "CSCI 340 Operating Systems (3)",
+      "CSCI 350 Digital Logic and Computer Organization (3)",
+      "CSCI 360 Software Architecture, Security, and Testing (3)",
+      "CSCI 362 Software Engineering (3)",
+      "CSCI 370 Mobile Application Development (3)",
+      "CSCI 390 Special Topics in Computing (3)",
+      "CSCI 399 Tutorial (3)",
+      "CSCI 410 Automata and Formal Languages (3)",
+      "CSCI 420 Principles of Compiler Design (3)",
+      "CSCI 432 Concepts of Database Implementation (3)",
+      "CSCI 440 Computer Networks (3)",
+      "CSCI 450 Architecture of Advanced Computer Systems (3)",
+      "CSCI 480 Principles of Computer Graphics (3)",
+      "CSCI 490 Special Topics (3)",
+      "DATA 101 Introduction to Data Science (3)"
+    ]
+  },
+  {
+    "heading": "Math Requirement",
+    "courses": [
+      "MATH 207 Discrete Structures I (3)",
+      "MATH 116 Calculus for Business and Social Sciences (3)",
+      "MATH 120 Introductory Calculus (4)",
+      "MATH 104 Elementary Statistics (3)",
+      "MATH 107 Elementary Statistics: Race, Equity and Inclusion (3)",
+      "MATH 250 Statistical Methods I (3)"
+    ]
+  },
+  {
+    "heading": "Notes:",
+    "courses": []
+  },
+  {
+    "heading": "Communication Requirement",
+    "courses": [
+      "COMM 104 Public Speaking (3)"
+    ]
+  },
+  {
+    "heading": "Business Requirement",
+    "courses": [
+      "ACCT 203 Financial Accounting (3)",
+      "ACCT 204 Managerial Accounting (3)",
+      "DSCI 232 Business Statistics (3)",
+      "INFM 220 Management Information Systems (3)"
+    ]
+  },
+  {
+    "heading": "Notes:",
+    "courses": []
+  },
+  {
+    "heading": "Business Electives",
+    "courses": []
+  },
+  {
+    "heading": "Notes:",
+    "courses": []
+  },
+  {
+    "heading": "Coursework Meeting Major Requirements Excluded from the Major GPA Calculation",
+    "courses": []
+  }
+]

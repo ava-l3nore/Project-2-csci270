@@ -1,0 +1,72 @@
+[
+  {
+    "heading": "Major Requirements",
+    "courses": []
+  },
+  {
+    "heading": "Required Courses",
+    "courses": [
+      "CSCI 220 Computer Programming I (3)",
+      "CSCI 220L Programming I Laboratory (1)",
+      "CSCI 218 Engineering Programming (3)",
+      "CSCI 218L Engineering Programming Lab (1)",
+      "CSCI 221 Computer Programming II (3)",
+      "CSCI 230 Data Structures and Algorithms (3)",
+      "CSCI 250 Introduction to Computer Organization and Assembly Language Programming (3)",
+      "CSCI 300 Seminar on Computing and Society (3)",
+      "CSCI 310 Advanced Algorithms (3)",
+      "CSCI 320 Programming Language Concepts (3)",
+      "CSCI 340 Operating Systems (3)",
+      "CSCI 345 Computer and Network Security (3)",
+      "CSCI 350 Digital Logic and Computer Organization (3)",
+      "CSCI 362 Software Engineering (3)",
+      "CSCI 431 Database Concepts (3)",
+      "CSCI 495 Software Engineering Capstone (3)"
+    ]
+  },
+  {
+    "heading": "Elective Requirement",
+    "courses": []
+  },
+  {
+    "heading": "Math Requirement",
+    "courses": [
+      "MATH 120 Introductory Calculus (4)",
+      "MATH 207 Discrete Structures I (3)",
+      "MATH 250 Statistical Methods I (3)",
+      "MATH 307 Discrete Structures II (3)"
+    ]
+  },
+  {
+    "heading": "Note:",
+    "courses": []
+  },
+  {
+    "heading": "Complete one additional math course from the following:",
+    "courses": [
+      "MATH 203 Linear Algebra (3)",
+      "MATH 220 Calculus II (4)",
+      "MATH 245 Numerical Methods and Mathematical Computing (3)",
+      "MATH 350 Statistical Methods II (3)",
+      "MATH 440 Statistical Learning I (3)"
+    ]
+  },
+  {
+    "heading": "Note:",
+    "courses": []
+  },
+  {
+    "heading": "Communication Requirement",
+    "courses": [
+      "COMM 104 Public Speaking (3)"
+    ]
+  },
+  {
+    "heading": "Notes:",
+    "courses": []
+  },
+  {
+    "heading": "Coursework Meeting Major Requirements Excluded from the Major GPA Calculation",
+    "courses": []
+  }
+]
