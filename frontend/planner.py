@@ -29,14 +29,28 @@ def fill_year(event, term):
     return event
 
 
+def is_college_date(item):
+    # the backend tells the model to mark scraped calendar dates with this evidence
+    return "academic calendar" in (item.get("evidence") or "").lower()
+
+
 def collect_dates(summaries):
     all_dates = []
+    seen_college = set()
     for summary in summaries:
         course_code = summary["course"]["code"] or summary["course"]["name"] or "Unknown course"
         term = summary["course"]["term"]
         for item in summary["important_dates"]:
             event = fill_year(dict(item), term)
-            event["course"] = course_code
+            if is_college_date(event):
+                # college-wide dates are shown once, not once per course
+                key = (event.get("date"), event["title"].strip().lower())
+                if key in seen_college:
+                    continue
+                seen_college.add(key)
+                event["course"] = "CofC"
+            else:
+                event["course"] = course_code
             all_dates.append(event)
     return all_dates
 
